@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: "Play", sans-serif;
+  font-style: normal;
+  margin: 0;
+  padding: 20px;
+  background-image: linear-gradient(
+      to right,
+      rgba(248, 246, 246, 0.9),
+      rgba(0, 0, 0, 0)
+    ),
+    url("./assets/retro-devushka-vintazh-pinup.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
